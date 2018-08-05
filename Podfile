@@ -8,4 +8,5 @@ target 'rekiapp' do
 	#pod 'AFImageDownloader'
 	pod 'CarouselSwift'
 	pod 'CameraManager', '~> 4.0'
+	pod 'Alamofire', '~> 4.0'
 end

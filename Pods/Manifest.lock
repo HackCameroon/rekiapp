@@ -1,20 +1,24 @@
 PODS:
+  - Alamofire (4.7.3)
   - CameraManager (4.2.3)
   - CarouselSwift (1.5)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
   - CameraManager (~> 4.0)
   - CarouselSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - CameraManager
     - CarouselSwift
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CameraManager: ea80fdeb797ed6d1f02a6bae645bf31ddb2da3c7
   CarouselSwift: c02febb72b0048fe1d9ce79696783fe5e2a40710
 
-PODFILE CHECKSUM: 8833d9a89528b338c21b2973d08869b677c91c3a
+PODFILE CHECKSUM: a3fdca4f1cf9321aba537570205284f0c5a0a441
 
 COCOAPODS: 1.5.3
