@@ -1,0 +1,20 @@
+PODS:
+  - CameraManager (4.2.3)
+  - CarouselSwift (1.5)
+
+DEPENDENCIES:
+  - CameraManager (~> 4.0)
+  - CarouselSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CameraManager
+    - CarouselSwift
+
+SPEC CHECKSUMS:
+  CameraManager: ea80fdeb797ed6d1f02a6bae645bf31ddb2da3c7
+  CarouselSwift: c02febb72b0048fe1d9ce79696783fe5e2a40710
+
+PODFILE CHECKSUM: 8833d9a89528b338c21b2973d08869b677c91c3a
+
+COCOAPODS: 1.5.3

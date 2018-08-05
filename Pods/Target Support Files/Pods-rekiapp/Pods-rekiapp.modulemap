@@ -1,0 +1,6 @@
+framework module Pods_rekiapp {
+  umbrella header "Pods-rekiapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

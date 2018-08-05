@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFA8436AF46788BED07BF4DC /* Pods_rekiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D567AFDB8923122CC9CC5F /* Pods_rekiapp.framework */; };
 		F8731EBF2116C1EA004326CA /* HCOHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */; };
 		F89CEB48211668AA001C4687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB47211668AA001C4687 /* AppDelegate.swift */; };
 		F89CEB4A211668AA001C4687 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB49211668AA001C4687 /* FirstViewController.swift */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D567AFDB8923122CC9CC5F /* Pods_rekiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rekiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A73B0B8B974BAD8C71566D5 /* Pods-rekiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rekiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp.release.xcconfig"; sourceTree = "<group>"; };
+		9C78D6DB7A960AFDA3C7EB8A /* Pods-rekiapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rekiapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp.debug.xcconfig"; sourceTree = "<group>"; };
 		F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCOHistoryViewController.swift; sourceTree = "<group>"; };
 		F89CEB44211668AA001C4687 /* rekiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rekiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CEB47211668AA001C4687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA8436AF46788BED07BF4DC /* Pods_rekiapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB3B4B1FC4B6F6749A0CEBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D567AFDB8923122CC9CC5F /* Pods_rekiapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		702824788EB9F4FC2E04FD81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C78D6DB7A960AFDA3C7EB8A /* Pods-rekiapp.debug.xcconfig */,
+				1A73B0B8B974BAD8C71566D5 /* Pods-rekiapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F89CEB3B211668A9001C4687 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				F89CEB5D211668AE001C4687 /* rekiappTests */,
 				F89CEB68211668AE001C4687 /* rekiappUITests */,
 				F89CEB45211668AA001C4687 /* Products */,
+				702824788EB9F4FC2E04FD81 /* Pods */,
+				0BB3B4B1FC4B6F6749A0CEBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F89CEB6E211668AE001C4687 /* Build configuration list for PBXNativeTarget "rekiapp" */;
 			buildPhases = (
+				621C617AD5B4499FD885FFAD /* [CP] Check Pods Manifest.lock */,
 				F89CEB40211668A9001C4687 /* Sources */,
 				F89CEB41211668A9001C4687 /* Frameworks */,
 				F89CEB42211668A9001C4687 /* Resources */,
+				BCD1556A110262F73893B4B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		621C617AD5B4499FD885FFAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rekiapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD1556A110262F73893B4B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/CarouselSwift/CarouselSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarouselSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F89CEB40211668A9001C4687 /* Sources */ = {
@@ -436,6 +503,7 @@
 		};
 		F89CEB6F211668AE001C4687 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C78D6DB7A960AFDA3C7EB8A /* Pods-rekiapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +523,7 @@
 		};
 		F89CEB70211668AE001C4687 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A73B0B8B974BAD8C71566D5 /* Pods-rekiapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
