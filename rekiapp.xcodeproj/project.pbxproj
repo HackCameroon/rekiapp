@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DFA8436AF46788BED07BF4DC /* Pods_rekiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D567AFDB8923122CC9CC5F /* Pods_rekiapp.framework */; };
+		F85C34A321177317006E8ACB /* HCOPickupLisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C34A221177316006E8ACB /* HCOPickupLisViewController.swift */; };
 		F8731EBF2116C1EA004326CA /* HCOHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */; };
 		F89CEB48211668AA001C4687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB47211668AA001C4687 /* AppDelegate.swift */; };
 		F89CEB4A211668AA001C4687 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB49211668AA001C4687 /* FirstViewController.swift */; };
@@ -40,6 +41,7 @@
 		10D567AFDB8923122CC9CC5F /* Pods_rekiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rekiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A73B0B8B974BAD8C71566D5 /* Pods-rekiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rekiapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp.release.xcconfig"; sourceTree = "<group>"; };
 		9C78D6DB7A960AFDA3C7EB8A /* Pods-rekiapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rekiapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rekiapp/Pods-rekiapp.debug.xcconfig"; sourceTree = "<group>"; };
+		F85C34A221177316006E8ACB /* HCOPickupLisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCOPickupLisViewController.swift; sourceTree = "<group>"; };
 		F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCOHistoryViewController.swift; sourceTree = "<group>"; };
 		F89CEB44211668AA001C4687 /* rekiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rekiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CEB47211668AA001C4687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				F89CEB49211668AA001C4687 /* FirstViewController.swift */,
 				F89CEB4B211668AA001C4687 /* SecondViewController.swift */,
 				F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */,
+				F85C34A221177316006E8ACB /* HCOPickupLisViewController.swift */,
 				F89CEB4D211668AA001C4687 /* Main.storyboard */,
 				F89CEB50211668AD001C4687 /* Assets.xcassets */,
 				F89CEB52211668AD001C4687 /* LaunchScreen.storyboard */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8731EBF2116C1EA004326CA /* HCOHistoryViewController.swift in Sources */,
+				F85C34A321177317006E8ACB /* HCOPickupLisViewController.swift in Sources */,
 				F89CEB4C211668AA001C4687 /* SecondViewController.swift in Sources */,
 				F89CEB48211668AA001C4687 /* AppDelegate.swift in Sources */,
 				F89CEB4A211668AA001C4687 /* FirstViewController.swift in Sources */,
