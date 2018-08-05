@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8731EBF2116C1EA004326CA /* HCOHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */; };
 		F89CEB48211668AA001C4687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB47211668AA001C4687 /* AppDelegate.swift */; };
 		F89CEB4A211668AA001C4687 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB49211668AA001C4687 /* FirstViewController.swift */; };
 		F89CEB4C211668AA001C4687 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB4B211668AA001C4687 /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCOHistoryViewController.swift; sourceTree = "<group>"; };
 		F89CEB44211668AA001C4687 /* rekiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rekiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CEB47211668AA001C4687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F89CEB49211668AA001C4687 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				F89CEB47211668AA001C4687 /* AppDelegate.swift */,
 				F89CEB49211668AA001C4687 /* FirstViewController.swift */,
 				F89CEB4B211668AA001C4687 /* SecondViewController.swift */,
+				F8731EBE2116C1EA004326CA /* HCOHistoryViewController.swift */,
 				F89CEB4D211668AA001C4687 /* Main.storyboard */,
 				F89CEB50211668AD001C4687 /* Assets.xcassets */,
 				F89CEB52211668AD001C4687 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8731EBF2116C1EA004326CA /* HCOHistoryViewController.swift in Sources */,
 				F89CEB4C211668AA001C4687 /* SecondViewController.swift in Sources */,
 				F89CEB48211668AA001C4687 /* AppDelegate.swift in Sources */,
 				F89CEB4A211668AA001C4687 /* FirstViewController.swift in Sources */,
