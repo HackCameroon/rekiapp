@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -67,14 +67,14 @@
 /* Begin PBXFileReference section */
 		092A4C958A27A9BCEC9C035E5979828D /* Carousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Carousel.swift; path = Sources/Carousel.swift; sourceTree = "<group>"; };
 		0D07A852FF9B7A6EC49487F447CE5C69 /* Pods-rekiapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rekiapp-dummy.m"; sourceTree = "<group>"; };
-		1EA3E372DEDC60C11647D1B92CE81C05 /* CameraManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraManager.framework; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA3E372DEDC60C11647D1B92CE81C05 /* CameraManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23171EBB3433E932DD749475496FD7C5 /* Pods-rekiapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rekiapp-resources.sh"; sourceTree = "<group>"; };
 		25E3139ADF31014B7E414FB0FF10B4ED /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		2857A84CE2956B42C8F96CF58F303947 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		2DA4FCD856CB008C49FD572FDE71E039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31010D3D8B3F83FD863BFD3E31DA2438 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		32CA82BB1AE62632F96F079F6DDF2659 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		3D7292ED088667045C0DAD63EDE56AE0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7292ED088667045C0DAD63EDE56AE0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F718F5CFD5DCB8CC5EF9A73445FB21A /* CarouselSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarouselSwift-prefix.pch"; sourceTree = "<group>"; };
 		42918A5C6977B4B87FE600F3160C56B8 /* CameraManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-umbrella.h"; sourceTree = "<group>"; };
 		45D1600428B811AEEB93339949E4001E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -95,15 +95,15 @@
 		817886D6F74BF263620DE329CA2921F5 /* Pods-rekiapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rekiapp-frameworks.sh"; sourceTree = "<group>"; };
 		81B037F181C304C1EAF4442C379434BF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		85DF81F2A054C04032C1D6FF70F3F258 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		993C4F056BE61BEB8A06BB368B231936 /* CameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = camera/CameraManager.swift; sourceTree = "<group>"; };
 		9D963D6C09F77EE0C1AAACF94D0E6FC5 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		9DE276C4C8E3BDC5C94C864048971035 /* CarouselSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarouselSwift.framework; path = CarouselSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE276C4C8E3BDC5C94C864048971035 /* CarouselSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarouselSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A425F307BD8BCFE346CE0CBA9D2D8B75 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		ACF183CBDFF37BD20E80403437E85BDA /* CameraManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CameraManager.modulemap; sourceTree = "<group>"; };
 		B17B40C9B9AFC172CC56397583EF1319 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		B7288AA63492956E26C4FEFD53B69031 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9D47475881DD8C39C07AB61C1D4C49E /* Pods_rekiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rekiapp.framework; path = "Pods-rekiapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D47475881DD8C39C07AB61C1D4C49E /* Pods_rekiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rekiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3AA2FB758F6A671AF3DF1089E75D94 /* CarouselSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarouselSwift-dummy.m"; sourceTree = "<group>"; };
 		BCD38D44A22119BE00531C7DBE853916 /* CameraManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-prefix.pch"; sourceTree = "<group>"; };
 		C5806F31A278E2D153AC5CF566368670 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -217,7 +217,6 @@
 				993C4F056BE61BEB8A06BB368B231936 /* CameraManager.swift */,
 				0E9DDD5615F2C29A175E44DD939BB61C /* Support Files */,
 			);
-			name = CameraManager;
 			path = CameraManager;
 			sourceTree = "<group>";
 		};
@@ -280,7 +279,6 @@
 				092A4C958A27A9BCEC9C035E5979828D /* Carousel.swift */,
 				7FA41A4C77D47852C4F4C0F0D84A3B5C /* Support Files */,
 			);
-			name = CarouselSwift;
 			path = CarouselSwift;
 			sourceTree = "<group>";
 		};
@@ -314,7 +312,6 @@
 				81B037F181C304C1EAF4442C379434BF /* Validation.swift */,
 				09DECB3FB593D4017F58A3F6EBC96BC1 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -434,7 +431,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -549,11 +546,7 @@
 				INFOPLIST_FILE = "Target Support Files/CarouselSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CarouselSwift/CarouselSwift.modulemap";
 				PRODUCT_MODULE_NAME = CarouselSwift;
 				PRODUCT_NAME = CarouselSwift;
@@ -585,11 +578,7 @@
 				INFOPLIST_FILE = "Target Support Files/CarouselSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CarouselSwift/CarouselSwift.modulemap";
 				PRODUCT_MODULE_NAME = CarouselSwift;
 				PRODUCT_NAME = CarouselSwift;
@@ -622,11 +611,7 @@
 				INFOPLIST_FILE = "Target Support Files/CameraManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CameraManager/CameraManager.modulemap";
 				PRODUCT_MODULE_NAME = CameraManager;
 				PRODUCT_NAME = CameraManager;
@@ -723,11 +708,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-rekiapp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-rekiapp/Pods-rekiapp.modulemap";
 				OTHER_LDFLAGS = "";
@@ -799,6 +780,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -820,11 +802,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -857,11 +835,7 @@
 				INFOPLIST_FILE = "Target Support Files/CameraManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CameraManager/CameraManager.modulemap";
 				PRODUCT_MODULE_NAME = CameraManager;
 				PRODUCT_NAME = CameraManager;
@@ -894,11 +868,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-rekiapp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-rekiapp/Pods-rekiapp.modulemap";
 				OTHER_LDFLAGS = "";
@@ -933,11 +903,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
