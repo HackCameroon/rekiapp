@@ -15,6 +15,12 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+
+    
+    @IBAction func addSolicitudRecogida(_ sender: Any) {
+        performSegue(withIdentifier: "openListaRecogidaView", sender: self)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
