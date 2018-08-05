@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import Foundation
+import Alamofire
+let key = "225861c2"
+let secret = "TANuo8tueoh2MWqY"
+let url = URL(string: "https://rest.nexmo.com/sms/json")
+
+var request = URLRequest(url: url!)
 
 class HCOPickupLisViewController: UIViewController {
 
@@ -21,7 +28,42 @@ class HCOPickupLisViewController: UIViewController {
     }
     
     @IBAction func requestPIckup(_ sender: Any) {
+        /*
+         curl -X POST  https://rest.nexmo.com/sms/json \
+         -d api_key=225861c2 \
+         -d api_secret=TANuo8tueoh2MWqY \
+         -d to=573006114674 \
+         -d from="NEXMO" \
+         -d text="Hello from Nexmo"
+         */
+
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "POST"
+        let postString = "api_key=225861c2&api_secret=TANuo8tueoh2MWqY&to=573006114674&from=NEXMO&text=Recoger 25kg papel, 5unidades vidrio, 20unidades plastico en Calle 57 N48 8-69"
+        request.httpBody = postString.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString)")
+        }
+        task.resume()
+        
     }
+    
+
+    
+
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
