@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +23,7 @@
                                 <rect key="frame" x="32" y="29" width="112" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Nombre" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h1M-EB-EMe">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Nombre" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h1M-EB-EMe">
                                 <rect key="frame" x="164" y="58" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -36,7 +37,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Apellido" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S6Y-D4-zHD">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Apellido" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S6Y-D4-zHD">
                                 <rect key="frame" x="164" y="110" width="139" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -49,7 +50,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Dirección" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jrQ-JC-950">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Dirección" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jrQ-JC-950">
                                 <rect key="frame" x="32" y="190" width="327" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -62,7 +63,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mVh-oL-bt4">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mVh-oL-bt4">
                                 <rect key="frame" x="32" y="239" width="327" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -75,7 +76,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N2U-hm-z4H">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N2U-hm-z4H">
                                 <rect key="frame" x="246" y="290" width="113" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -101,7 +102,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0z6-aM-0Lk">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0z6-aM-0Lk">
                                 <rect key="frame" x="246" y="341" width="113" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -140,7 +141,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z5r-ZS-3qH">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Zona" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z5r-ZS-3qH">
                                 <rect key="frame" x="192" y="404" width="167" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -170,14 +171,40 @@
                     <view key="view" contentMode="scaleToFill" id="gyd-AB-oQG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFd-A6-8CG" customClass="CarouselView" customModule="CarouselSwift">
+                                <rect key="frame" x="16" y="44" width="343" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBC-2E-4Gl" customClass="CarouselView" customModule="CarouselSwift">
+                                <rect key="frame" x="16" y="326" width="343" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="leading" secondItem="sbo-Ji-Dcu" secondAttribute="trailing" constant="-359" id="LIn-fK-Kv1"/>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="top" secondItem="sFd-A6-8CG" secondAttribute="bottom" constant="42" id="SSF-Zj-SAK"/>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="top" secondItem="sbo-Ji-Dcu" secondAttribute="bottom" constant="-292" id="a3d-yN-aXJ"/>
+                            <constraint firstItem="sbo-Ji-Dcu" firstAttribute="bottom" secondItem="iBC-2E-4Gl" secondAttribute="bottom" constant="28" id="cdm-HS-whd"/>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="top" secondItem="sFd-A6-8CG" secondAttribute="bottom" constant="42" id="gcO-PR-fpN"/>
+                            <constraint firstItem="sbo-Ji-Dcu" firstAttribute="top" secondItem="sFd-A6-8CG" secondAttribute="bottom" constant="-264" id="gk7-RG-Ss3"/>
+                            <constraint firstItem="sFd-A6-8CG" firstAttribute="leading" secondItem="sbo-Ji-Dcu" secondAttribute="trailing" constant="-359" id="qeW-5x-sVo"/>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="trailing" secondItem="sFd-A6-8CG" secondAttribute="trailing" id="sBI-Qs-Ddd"/>
+                            <constraint firstItem="sFd-A6-8CG" firstAttribute="top" secondItem="sbo-Ji-Dcu" secondAttribute="top" constant="24" id="yrc-cb-LK9"/>
+                            <constraint firstItem="iBC-2E-4Gl" firstAttribute="trailing" secondItem="gyd-AB-oQG" secondAttribute="trailingMargin" id="z1n-ha-lGT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sbo-Ji-Dcu"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="History" image="diagram" id="WoY-sj-7lC"/>
+                    <connections>
+                        <outlet property="kilogramosView" destination="sFd-A6-8CG" id="UgT-1h-lhe"/>
+                        <outlet property="unidadesView" destination="iBC-2E-4Gl" id="bQ1-Cx-khf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cV-YV-MhJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="92" y="715"/>
+            <point key="canvasLocation" x="125.59999999999999" y="774.96251874062978"/>
         </scene>
         <!--Request-->
         <scene sceneID="wg7-f3-ORb">
