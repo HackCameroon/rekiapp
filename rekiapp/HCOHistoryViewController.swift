@@ -52,7 +52,7 @@ class HCOHistoryViewController: UIViewController, CarouselViewDataSourse, Carous
         v.isOpaque = false
         
         if carousel.tag == 12345 {
-            let imagefilename = "barrapapel-" + String(index + 1)
+            let imagefilename = "Milk-bar-" + String(index + 1)
             let historyImage = UIImage(named: imagefilename)
             let historyImageView = UIImageView(image: historyImage)
             v.addSubview(historyImageView)
@@ -68,7 +68,7 @@ class HCOHistoryViewController: UIViewController, CarouselViewDataSourse, Carous
             v.layer.borderWidth = 0
             return (index % 6 == 0 && index != 0) ? nil : v
         } else {
-            let imagefilename = "circular-PV-" + String(index + 1)
+            let imagefilename = "Total-circular-" + String(index + 1)
             let historyImage = UIImage(named: imagefilename)
             let historyImageView = UIImageView(image: historyImage)
             v.addSubview(historyImageView)

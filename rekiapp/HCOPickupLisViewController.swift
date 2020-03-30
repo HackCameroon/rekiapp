@@ -27,6 +27,11 @@ class HCOPickupLisViewController: UIViewController {
         sourceViewController.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func showDetalleRecogida(_ sender: Any) {
+        performSegue(withIdentifier: "OpenDetailSolicitud", sender: self)
+    }
+    
+    
     @IBAction func requestPIckup(_ sender: Any) {
         /*
          curl -X POST  https://rest.nexmo.com/sms/json \
@@ -39,7 +44,7 @@ class HCOPickupLisViewController: UIViewController {
 
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
-        let postString = "api_key=225861c2&api_secret=TANuo8tueoh2MWqY&to=573006114674&from=NEXMO&text=Recoger 25kg papel, 5unidades vidrio, 20unidades plastico en Calle 57 N48 8-69"
+        let postString = "api_key=225861c2&api_secret=TANuo8tueoh2MWqY&to=573006114674&from=NEXMO&text=Please Pickup 15kg Rice, 20kg Beans, 5Lt Milk at Address 57 Nro 8-69, Bogota"
         request.httpBody = postString.data(using: .utf8)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
