@@ -1,6 +1,6 @@
 # rekiapp
 
-This is a simple solution to communicate people who have resources (like food, masks or others that can be need) to notify avalability to people in need, so they can pick up the items.
+This is a simple solution to Connect food resources with people in need during Covid19 lockdowns
 
 ## Demo
 
